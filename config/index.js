@@ -104,7 +104,7 @@ export const USER_CONFIG = {
       id: "oNFZF6laN0BA43UVC3Ls_CRksaAM",
       useTemplateId: "U5VIMocDVyMhlFHWbNv-wmhzRPCwD8Ga8Xa-KUK8RT0",
       province: "浙江",
-      city: "义乌",
+      city: "金华",
       horoscopeDate: '',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
@@ -126,6 +126,15 @@ export const USER_CONFIG = {
         {"type": "节日", "name": "下一次见面", "year": "2022", "date": "10-16"},
         {"type": "节日", "name": "国家公务员考试", "year": "2022", "date": "11-26"},
         {"type": "节日", "name": "浙江选调", "year": "2022", "date": "10-29"},
+      ],
+     // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2016-11-01"},
+        // 结婚纪念日
+        {"keyword": "marry_day", date: "2021-05-20"},
+        // 下一次见面
+        //{"keyword": "ex_day", date: "2022-10-16"},
       ],
       customizedDateList: []
     },
