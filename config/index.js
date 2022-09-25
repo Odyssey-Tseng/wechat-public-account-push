@@ -60,7 +60,7 @@ export const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "老婆0",
+      name: "周同学",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oNFZF6laN0BA43UVC3Ls_CRksaAM",
       // 你想对他发送的模板消息的模板ID
@@ -84,6 +84,7 @@ export const USER_CONFIG = {
         {"type": "生日", "name": "周同学", "year": "1998", "date": "06-27"},
         {"type": "生日", "name": "曾同学", "year": "1995", "date": "07-15"},
         {"type": "节日", "name": "结婚纪念日", "year": "2021", "date": "05-20"},
+        {"type": "节日", "name": "下一次见面", "year": "2022", "date": "10-16"},
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
@@ -92,7 +93,7 @@ export const USER_CONFIG = {
         // 结婚纪念日
         {"keyword": "marry_day", date: "2021-05-20"},
         // 下一次见面
-        {"keyword": "ex_day", date: "2022-10-16"},
+        //{"keyword": "ex_day", date: "2022-10-16"},
       ]
     },
    /*
